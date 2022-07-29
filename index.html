@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="./img/dev-log.png">
+    <title>Dev Contábil</title>
+</head>
+
+<body>
+    <div class="top-box">
+        <div class="header">
+            <h2 class="title-header">Dev contábil</h2>
+            <a href="#title-bottom" class="link-header">Quem somos</a>
+            <a href="#title-mid" class="link-header">serviço</a>
+            <a href="" class="link-header" onclick="formContact()">contato</a>
+        </div>
+        <h1>Dev Contábil</h1>
+
+        <form id="formulario-contato" action="https://formsubmit.co/contato.kauamedeiros@gmail.com" method="post">
+            <h3 class="title-form">Entre em conato</h3>
+
+            <label for=""> Nome
+                <input type="text" name="Nome" placeholder="Digite seu Nome" required>
+            </label>
+
+            <label for=""> E-mail
+                <input type="text" name="E-mail" placeholder="Digite o seu E-mail" required>
+            </label>
+
+            <label for=""> Fale conosco
+                <textarea name="info" placeholder="Qual sua dúvida" required></textarea>
+            </label>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <h2 id="title-mid">Nossos serviços</h2>
+
+    <div class="box-center">
+        <div class="card">
+            <h3 class="title-card">Contabilidade Completa</h3>
+            <ul>
+                <li>Primeiro item da lista</li>
+                <li>Segundo item da lista</li>
+                <li>Terceiro item da lista</li>
+                <li>Quarto item da lista</li>
+                <li>Quinto item da lista</li>
+                <li>Sexto item da lista</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3 class="title-card">Cuidamos do seu negócio</h3>
+            <ul>
+                <li>Primeiro item da lista</li>
+                <li>Segundo item da lista</li>
+                <li>Terceiro item da lista</li>
+                <li>Quarto item da lista</li>
+                <li>Quinto item da lista</li>
+                <li>Sexto item da lista</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3 class="title-card">Cuidamos de você</h3>
+            <ul>
+                <li>Primeiro item da lista</li>
+                <li>Segundo item da lista</li>
+                <li>Terceiro item da lista</li>
+                <li>Quarto item da lista</li>
+                <li>Quinto item da lista</li>
+                <li>Sexto item da lista</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="box-bottom">
+        <h2 id="title-bottom">Sobre nós</h2>
+        <p class="paragraph-bottom">Estamos presente no mercado há mais de 4 décadas auxiliando nossos clientes
+            nacionais e internacionais que já atuam ou desejam abrir seus
+            negócios e ingressar no Brasil.
+            Assessoramos investidores que queiram prospectar seus negócios no Brasil
+            e investidores ("brasileires") interessados em fazer negócios em outros países.
+            Oferecemos "backoffice" nas áreas Financeira, Recursos Humanos, Tributária
+            e Contabilidade, inclusive a abertura, legalização e regularização de
+            empresas e negócios.
+            Com pesquisas de mercado, montamos toda estrutura organizacional,
+            ambiente operacional e logística de suas atividades, com profissionais
+            qualificados, competentes e continuamente treinados.
+            Somos especialistas em empresas tributadas pelo LUCRO REAL e
+            Contabilidade em IFRS. Assim, o Planejamento das Operações e suas
+            consequências tributárias passam a ser condições de competitividade,
+            inclusive sugerindo incorporação ou desmembramento de atividades.</p>
+    </div>
+</body>
+
+<script>
+
+    let formulario = document.getElementById("formulario-contato")
+
+    function formContact() {
+        formulario.className = "mostrar-form"
+    }
+
+</script>
+
+</html>

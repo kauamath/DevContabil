@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.top-box {
+    background-image: url(./img/dev.png);
+    background-size: cover;
+    height: 90vh;
+}
+
+img {
+    width: 100vw;
+}
+
+.header {
+    padding: 25px 0 0 35px;
+}
+
+.title-header {
+    font-size: 30px;
+    color: white;
+    display: inline;
+}
+
+.link-header {
+    font-size: 20px;
+    color: white;
+    display: inline;
+    text-decoration: none;
+    margin: 0 0 0 20px;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 58px;
+    color: white;
+    position: relative;
+    top: 280px;
+    margin: 0 0 0 35px;
+}
+
+form {
+    /* visibility: hidden;  */
+    opacity: 0;  
+    transition:/* visibility 0s, */  opacity 1s linear;   
+    background-color: white;
+    border-radius: 10px;
+    float: right;/* joga um elemento para um lado */
+    padding: 20px;
+    margin-right: 50px;
+    position: relative;
+    bottom: 70px;
+}
+
+  .mostrar-form {
+    /* visibility: visible;   */
+      opacity: 1; 
+}  
+
+input {
+    display: block;
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    width: 250px;
+    height: 40px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+textarea {
+    display: block;
+    width: 250px;
+    height: 80px;
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.title-form {
+    font-size: 24px;
+    color: #252B42;
+    margin: 0 0 30px 0;
+    text-align: center;
+}
+
+label {
+    font-size: 14px;
+    color: #252B42;
+}
+
+button {
+    width: 250px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background: #00095d;
+    ;
+    color: white;
+}
+
+.box-center {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+#title-mid {
+    font-size: 40px;
+    color: #00095d;;
+    text-align: center;
+    /* margin-top: 50px; */
+    margin-bottom: 50px;
+}
+
+.card {
+    width: 300px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid #A9D6FF;
+}
+
+.title-card {
+    background: #00095d;
+    ;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+ul {
+    padding: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.box-bottom {
+    background-color: #00095d;
+}
+
+#title-bottom {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.paragraph-bottom {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding: 20px 50px 50px 50px;
+}
