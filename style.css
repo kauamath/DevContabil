@@ -43,9 +43,8 @@ h1 {
 }
 
 form {
-    /* visibility: hidden;  */
     opacity: 0;  
-    transition:/* visibility 0s, */  opacity 1s linear;   
+    transition: opacity 1s linear;   
     background-color: white;
     border-radius: 10px;
     float: right;/* joga um elemento para um lado */
@@ -54,9 +53,7 @@ form {
     position: relative;
     bottom: 70px;
 }
-
   .mostrar-form {
-    /* visibility: visible;   */
       opacity: 1; 
 }  
 
@@ -160,4 +157,8 @@ li {
     color: white;
     text-align: center;
     padding: 20px 50px 50px 50px;
+}
+
+@media screen {
+    
 }
